@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR ____________________________________________*/
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    
+}
+.logo img {
+padding: 1rem;
+width: 300px;
+height: 100px;
+margin-left: 3rem;
+}
+.botones {
+align-self: center;
+justify-self: end;
+margin-right: 2rem;
+}
+.botones a{
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+.botones a:hover{
+    background-color: rgba(192, 65, 129, 0.486);
+    
+}
+/* FIN NAVBAR ________________________________________*/
+
+/* HEADER_____________________________________________ */
+header{
+    width: 100vw;
+    height: 300px;
+    background-color: rgb(226, 169, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+header a{
+font-size: 10rem;
+color: black;
+text-decoration: none;
+}
+header h2{
+    font-size: 8rem;
+}
+
+/* FIN HEADER___________________________________________*/
+
+/* MAIN ________________________________________________*/
+.tarjetas{
+    width: 100%;
+    margin: 1rem;
+    margin-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.tarjetas img{
+    height: 500px;
+}
+.categorias{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* FIN MAIN ___________________________________________*/
+
+/* FOOTER _____________________________________________*/
+footer{
+    background-color: rgba(233, 227, 227, 0.562);
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+}
+footer a{
+margin: 1rem;
+}
+footer h2{
+    font-size: 3rem;
+    align-self: center;
+    margin-left: 75%;
+}
+/* FIN FOOTER __________________________________________*/
+
+
+
